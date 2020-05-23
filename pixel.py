@@ -1,6 +1,6 @@
 import cv2
 
-input = cv2.imread('/home/prashant/Pictures/profile/b2.jpg')
+input = cv2.imread('/images/b2.jpg')
 
 print("Shape : ", input.shape[:2])
 height, width = input.shape[:2]

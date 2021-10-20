@@ -1,6 +1,6 @@
 import cv2
 
-path = '/images/'
+path = 'imagePATH/'
 input = cv2.imread(path+'b2.jpg')
 
 print("Shape : ", input.shape[:2])
